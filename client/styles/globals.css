@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+/* BASIC */
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+#formContent {
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  text-align: center;
+}
+
+
+h1{
+top: 632px;
+left: 635px;
+width: 650px;
+height: 53px;
+}
+
+
+
+
+/* FORM TYPOGRAPHY*/
+
+input[type=button], input[type=submit], input[type=reset]  {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  display: inline-block;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+
+}
+
+
+input[type=text],input[type=password],input[type=email] {
+  background-color: #ffffff;
+  border: none;
+  color: #0d0d0d;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 100%;
+  border: 2px solid #707070;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 8px;
+  opacity: 1;
+}
+.FirstLast{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.login{
+  display:flex;
+  flex-flow: row;
+  justify-content: space-between;
+
+}
+.login > a{
+  width: 60px;
+}
+
+body{
+    background: black;
+}
+
+.divLogo{
+  display: flex;
+
+  background: #222222;
+  width: 376px;
+  height: 318px;
+  position: relative;
+  top: 50%;
+  left: 36%;
+  justify-content: center;
+
+}
+a:link 
+{ 
+ text-decoration:none; 
+ color: #000000;
+} 
+.logo{
+  position:absolute;
+  top: 110px;
+  left:110px;
+  width:103px;
+  height:40px;
+  background-color: #F2994A;
+  border-radius:0px 10px 0px 10px;
+  transform-origin:left;
+  transform:rotate(45deg);
+}
+
+.logo:after{
+  content:'';
+  position:absolute;
+  top:-110px;
+  left:20px;
+  width:94px;
+  height:40px;
+  background-color: #F2994A;
+  border-radius:0px;
+  transform-origin:left;
+  transform:rotate(90deg);
+}
+
+.logoB{
+  position:absolute;
+  top:181px;
+  left:280px;
+  width:103px;
+  height:40px;
+  background-color: #2D9CDB;
+  border-radius:0px 10px 0px 10px;
+  transform-origin:left;
+  transform:rotate(-135deg);
+}
+
+.logoB:after{
+  content:'';
+  position:absolute;
+  top:-110px;
+  left:20px;
+  width:94px;
+  height:40px;
+  background-color: #2D9CDB;
+  border-radius:0px;
+  transform-origin:left;
+  transform:rotate(90deg);
+}
+
+
